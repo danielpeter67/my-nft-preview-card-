@@ -1,0 +1,145 @@
+html {
+  background: #011d34;
+  text-align: center;
+  font-family: "Outfit";
+  font-size: 10px;
+}
+h2 {
+  color: #e3edf6;
+  font-size: 4rem;
+  margin: 0.3rem 0;
+}
+h3 {
+  color: #eaf6f6;
+  font-size: 3rem;
+}
+p {
+  color: #60839c;
+  font-size: 2.2rem;
+}
+
+.border {
+  background-color: hsl(215, 52%, 8%);
+  height: 100vh;
+  width: 100vw;
+}
+.line {
+  border-bottom: 0.5px solid hsl(215, 51%, 70%);
+  display: block;
+  width: 45rem;
+  position: absolute;
+  top: 59rem;
+  left: 1.8rem;
+}
+
+.box {
+  width: 500px;
+  height: 700px;
+  border-radius: 10px;
+  background: hsl(218, 88%, 13%);
+  box-shadow: rgb(5, 38, 61);
+  position: relative;
+  top: 10.5rem;
+  left: 45rem;
+}
+h2 {
+  margin: 2px 0;
+  position: absolute;
+  top: 39rem;
+  left: 2rem;
+}
+h2:hover {
+  color: rgb(13, 219, 219);
+}
+.msg-income p {
+  width: 45rem;
+  font-size: 2.5rem;
+  text-align: justify;
+  position: absolute;
+  top: 43rem;
+  left: 2rem;
+}
+.icon2 img {
+  position: absolute;
+  top: 54.2rem;
+  left: 2rem;
+  height: 3rem;
+}
+.letter1 {
+  margin: 0.5rem 0 0.1;
+  position: absolute;
+  top: 52rem;
+  left: 5rem;
+  color: rgb(9, 152, 152);
+  font-size: 2.5rem;
+}
+.icon3 img {
+  position: absolute;
+  top: 54.3rem;
+  left: 33.5rem;
+  height: 3rem;
+  width: auto;
+}
+.letter2 {
+  position: absolute;
+  top: 52.5rem;
+  left: 37rem;
+}
+.middle-container {
+  width: 46rem;
+  height: 10rem;
+  position: absolute;
+  top: 58rem;
+  left: 2rem;
+  padding: 2px;
+}
+hr {
+  border: 1px solid #e3edf6;
+  width: 90%;
+}
+.avatar {
+  position: relative;
+  top: 2rem;
+}
+.footer {
+  position: absolute;
+  top: 0.03rem;
+  left: 7rem;
+}
+
+.footer span {
+  color: rgb(19, 72, 145);
+}
+.footer b:hover {
+  color: rgb(14, 201, 222);
+}
+/* images css */
+.icon img {
+  width: 45rem;
+  height: 37rem;
+  position: absolute;
+  top: 1rem;
+  left: 2.3rem;
+  border-radius: 1rem;
+}
+.image-overlay img {
+  width: 45rem;
+  height: 37rem;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  border-radius: 0.5rem;
+  opacity: 0;
+}
+.image-overlay img:hover {
+  opacity: 0.3;
+  background-color: rgba(10, 243, 251, 0.374);
+}
+.avatar img {
+  width: 4rem;
+  height: 3.4rem;
+  float: left;
+  border-radius: 100%;
+  border: solid 3px #e3edf6;
+  margin: 5px 0;
+}
